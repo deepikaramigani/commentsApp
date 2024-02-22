@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.main-container {
+  margin: 30px;
+}
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .comment-img {
+    width: 80%;
+  }
+  .comment-details {
+    order: 2;
+  }
+  .heading {
+    order: 0;
+  }
+}
+.comment-img {
+  margin: 40px;
+}
+.comment-details {
+  display: flex;
+  flex-direction: column;
+}
+.comments-des {
+  color: #475569;
+  font-weight: bold;
+}
+.input-style {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border-color: #cbd2d9;
+  outline: none;
+}
+.address {
+  display: block;
+}
+.add-comment-button {
+  color: white;
+  background-color: #0284c7;
+  border-style: none;
+  border-radius: 3px;
+  padding: 8px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.horizontal-line {
+  color: #475569;
+  width: 95%;
+}
+.comments-container {
+  display: flex;
+  flex-direction: column;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.list-container {
+  padding-left: 0px;
+}

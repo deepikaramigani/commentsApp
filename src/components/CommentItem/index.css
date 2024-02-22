@@ -1,0 +1,114 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile-name {
+  color: #334155;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.list-style {
+  list-style-type: none;
+}
+.profile {
+  border-radius: 40px;
+  padding: 13px;
+  color: white;
+  border-style: none;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.time {
+  color: #94a3b8;
+}
+.comment {
+  color: #64748b;
+  font-weight: normal;
+  margin-left: 50px;
+}
+.like-delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.like-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+}
+.like-image {
+  width: 30px;
+}
+.button {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+.liked {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0ea5e9;
+}
+.like {
+  font-weight: bold;
+  font-size: 20px;
+  color: #7e858e;
+}
+.delete {
+  width: 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+  .delete {
+    width: 30px;
+  }
+  .like-image {
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+  }
+  .like {
+    font-size: 20px;
+  }
+  .time {
+    font-size: 15px;
+  }
+  .like-button {
+    width: 50px;
+  }
+}
